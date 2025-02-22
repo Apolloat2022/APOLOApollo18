@@ -1,0 +1,210 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+header .logo span {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header .cta-button {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero .cta-button {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.tokenomics ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.tokenomics ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.roadmap .timeline {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.roadmap .event {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 23%;
+    text-align: center;
+}
+
+.roadmap .event h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.roadmap .event p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.team .team-members {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team .member {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.team .member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.team .member h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.team .member p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form input, .contact form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.contact form button {
+    background-color: #ff6b6b;
+    color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 500;
+}
