@@ -208,3 +208,8 @@ footer .social-links a {
     margin: 0 10px;
     font-weight: 500;
 }
+/* In your styles.css file */
+header .logo img {
+    width: 100px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
