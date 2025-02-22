@@ -210,6 +210,5 @@ footer .social-links a {
 }
 /* In your styles.css file */
 header .logo img {
-    width: 100px; /* Set the desired width */
-    height: auto; /* Maintain aspect ratio */
+    transform: scale(0.5); /* Scale the logo to 80% of its original size */
 }
